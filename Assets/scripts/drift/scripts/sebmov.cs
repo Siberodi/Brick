@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -13,6 +14,8 @@ public class sebmov : MonoBehaviour
     public Text score;
     public float puntos = 0;
     public Button Iniciar,Inicio;
+    public CoinManager coinmanager;
+    public GameObject CanvasGameOver;
 
     //public GameObject GameOver;
     //private bool Grounded;
@@ -22,6 +25,7 @@ public class sebmov : MonoBehaviour
         //GameOver.SetActive(false);
         RigidBody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+
         
 
         Button btn1 = Inicio.GetComponent<Button>();
@@ -42,6 +46,8 @@ public class sebmov : MonoBehaviour
             Jump();
             SumarPuntuacion();
         }
+
+        CanvasGameOver.SetActive(true);
     }
 
     private void Jump()
@@ -75,6 +81,18 @@ public class sebmov : MonoBehaviour
 
         Debug.Log("si sirveeeeeeeeeeeeeeeeeeeeeeeee");
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D fin)
+    {
+        if (fin.gameObject.CompareTag("Finish"))
+        {
+            //coinmanager.PerderVidas();
+            CanvasGameOver.SetActive(true);
+            
+            Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+            //Time.timeScale = 0f;
+        }
     }
 
 
