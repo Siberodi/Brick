@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cuestionario 1.unity
     guid: ae39f073a389e654c8fc744aeb4f39fb
+  - enabled: 1
+    path: Assets/Scenes/Drift.unity
+    guid: 12168cebfa9358d4e85a78277f17919e
   m_configObjects: {}
