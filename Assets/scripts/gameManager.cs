@@ -37,7 +37,7 @@ public class gameManager : MonoBehaviour
     {
         this.score = 0;
         this.lives = 3;
-        LoadGame(2);
+        LoadGame(1);
     }
 
     private void LoadGame(int pestaña)
@@ -66,7 +66,7 @@ public class gameManager : MonoBehaviour
     
     private void GameOver()
     {
-        LoadGame(3);
+        LoadGame(2);
     }
 
     public void Dead()

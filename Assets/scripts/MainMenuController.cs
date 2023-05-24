@@ -59,8 +59,9 @@ public class MainMenuController : MonoBehaviour
     }
     public void restart()
     {
-        SceneManager.LoadScene("Global");
-
+        SceneManager.LoadScene("Intro");
+        game_manager.score = 0;
+        game_manager.lives = 3;
 
     }
 }
