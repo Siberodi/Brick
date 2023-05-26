@@ -22,7 +22,7 @@ Nota: Estos son los requisitos mínimos del sistema y pueden variar dependiendo 
 
 ## Instalación
 
-Para obtener instrucciones detalladas sobre cómo instalar el juego en tu dispositivo, por favor, consulta el archivo `INSTALLATION.md` en este repositorio.
+Para obtener instrucciones detalladas sobre cómo instalar el juego en tu dispositivo, por favor, consulta el archivo `instalacion.md` en este repositorio.
 
 ## Uso del Juego
 
@@ -36,9 +36,7 @@ Para obtener instrucciones detalladas sobre cómo instalar el juego en tu dispos
 
    a) **Brick Breaker**: En este juego, usa las teclas de tu teclado para controlar un rectángulo que hará rebotar una pelota. El objetivo es destruir los bloques en la pantalla golpeándolos con la pelota. A medida que destruyas bloques, ganarás puntos. Al finalizar el juego, tus puntos se analizarán en una rubrica especializada que medirá tu concentración y motricidad. Después de eso, podrás volver al menú principal.
 
-   b) **QA (Preguntas y Respuestas)**: En esta opción
-
-, se te presentarán cinco preguntas de evaluación de capacidad de respuesta. Tu objetivo es responder correctamente a cada una de ellas. Las preguntas y tus respuestas serán guardadas para su posterior revisión. Después de responder las cinco preguntas, podrás regresar al menú principal.
+   b) **QA (Preguntas y Respuestas)**: En esta opción, se te presentarán cinco preguntas de evaluación de capacidad de respuesta. Tu objetivo es responder correctamente a cada una de ellas. Las preguntas y tus respuestas serán guardadas para su posterior revisión. Después de responder las cinco preguntas, podrás regresar al menú principal.
 
    c) **DriftMind**: DriftMind es un juego de carreras emocionante. Cuanto más saltes durante la carrera, más puntos ganarás. Sin embargo, ten en cuenta que tu nivel de motricidad comenzará a disminuir a medida que avanzas en la carrera. Al finalizar el juego, se mostrarán tus vidas restantes y las monedas recolectadas. Luego podrás regresar al menú principal.
 
